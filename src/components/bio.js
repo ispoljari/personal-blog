@@ -25,7 +25,7 @@ const Bio = () => {
         siteMetadata {
           author
           social {
-            twitter
+            linkedin
           }
         }
       }
@@ -53,14 +53,22 @@ const Bio = () => {
           borderRadius: `50%`,
         }}
       />
-      <p>
-        Written by <strong>{author}</strong> who lives and works in San
-        Francisco building useful things.
-        {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
-        </a>
-      </p>
+      <div>
+        <p style={{ marginBottom: rhythm(1 / 6) }}>
+          Written by{` `}
+          <strong>
+            <a
+              href={`${social.linkedin}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {author}
+            </a>
+          </strong>
+          .{` `}
+        </p>
+        <p>A JS padawan</p>
+      </div>
     </div>
   )
 }
