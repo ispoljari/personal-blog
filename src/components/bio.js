@@ -55,7 +55,7 @@ const Bio = () => {
       />
       <div>
         <p style={{ marginBottom: rhythm(1 / 6) }}>
-          Written by{` `}
+          A personal blog written by{` `}
           <strong>
             <a
               href={`${social.linkedin}`}
@@ -67,7 +67,6 @@ const Bio = () => {
           </strong>
           .{` `}
         </p>
-        <p>A JS padawan</p>
       </div>
     </div>
   )
