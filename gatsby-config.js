@@ -3,6 +3,7 @@ module.exports = {
     title: `SyberWorld`,
     author: `Ivan Spoljaric`,
     description: `My personal blog where I write about everything. But mostly I write about Javascript and the ecosystem of Web related technologies.`,
+    siteUrl: `https://thirsty-bohr-08606f.netlify.com`,
     social: {
       linkedin: `https://www.linkedin.com/in/ivan-%C5%A1poljari%C4%87-2206a184/`,
     },
